@@ -232,16 +232,16 @@ function ShowcaseCard({ showcase, index, totalCards }: ShowcaseCardProps) {
             </div>
 
             {/* Central Graphic with Glow */}
-            <div className="relative my-4 flex items-center justify-center overflow-hidden rounded-2xl">
+            <div className="relative my-auto py-4 sm:py-6 flex items-center justify-center">
               <div
-                className="absolute -inset-6 rounded-full blur-3xl opacity-30 group-hover:opacity-60 transition-opacity duration-700"
+                className="absolute -inset-4 rounded-full blur-3xl opacity-30 group-hover:opacity-60 transition-opacity duration-700 pointer-events-none"
                 style={{ backgroundColor: showcase.accent }}
               />
               <img
                 src={showcase.imageSrc}
                 alt={showcase.title}
                 loading="lazy"
-                className="relative z-10 max-h-[220px] sm:max-h-[260px] w-full object-cover rounded-xl border border-white/10 shadow-2xl group-hover:scale-103 transition-transform duration-500"
+                className="relative z-10 max-h-[200px] sm:max-h-[240px] md:max-h-[250px] w-auto max-w-[85%] object-contain filter drop-shadow-[0_20px_45px_rgba(0,0,0,0.95)] group-hover:scale-105 transition-transform duration-700 animate-float-slow pointer-events-none"
               />
             </div>
 

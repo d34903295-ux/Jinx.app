@@ -522,7 +522,7 @@ export function DigitalWaveFieldHero({
                       '/assets/jinx_hero_core_3d.png'
                   }}
                   alt="Jinx Sovereign 3D Core & Mobile Assistant"
-                  className="relative z-10 w-[240px] sm:w-[320px] md:w-[400px] lg:w-[460px] h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.85)] filter contrast-105 group-hover:scale-105 transition-transform duration-500 rounded-3xl"
+                  className="relative z-10 w-[230px] sm:w-[300px] md:w-[380px] lg:w-[430px] h-auto object-contain drop-shadow-[0_25px_60px_rgba(0,0,0,0.9)] filter contrast-105 group-hover:scale-105 transition-transform duration-700 animate-float-hero pointer-events-none"
                   draggable={false}
                 />
                 {/* Touch hint badge */}

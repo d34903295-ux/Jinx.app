@@ -24,13 +24,13 @@ export function AboutSection() {
         <FadeIn delay={0.1} x={-80} y={0} duration={0.9}>
           <div
             onClick={() => sfx.playBlip(920)}
-            className="relative group p-3 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="relative group p-4 sm:p-5 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             <div className="absolute -inset-2 bg-gradient-to-tr from-[#00f5a0]/30 to-[#7621B0]/30 rounded-3xl blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
               src="/assets/jinx_chip_webgpu.png"
               alt="3D Neural Core"
-              className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
+              className="relative z-10 w-full h-auto object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)] animate-float-slow"
               loading="lazy"
             />
             <div className="text-[11px] font-mono text-center text-[#00f5a0] mt-2 uppercase tracking-widest font-semibold flex items-center justify-center gap-1">
@@ -46,13 +46,13 @@ export function AboutSection() {
         <FadeIn delay={0.25} x={-80} y={0} duration={0.9}>
           <div
             onClick={() => sfx.playBlip(750)}
-            className="relative group p-3 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="relative group p-4 sm:p-5 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             <div className="absolute -inset-2 bg-[#7621B0]/30 rounded-full blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
               src="/assets/jinx_vector_rag_3d.png"
               alt="3D Vector RAG Globe"
-              className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
+              className="relative z-10 w-full h-auto object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)] animate-float-delayed"
               loading="lazy"
             />
             <div className="text-[11px] font-mono text-center text-[#D7E2EA] mt-2 uppercase tracking-widest font-semibold">
@@ -67,13 +67,13 @@ export function AboutSection() {
         <FadeIn delay={0.15} x={80} y={0} duration={0.9}>
           <div
             onClick={() => sfx.playBlip(820)}
-            className="relative group p-3 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="relative group p-4 sm:p-5 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             <div className="absolute -inset-2 bg-gradient-to-tr from-[#BE4C00]/40 to-[#E07A5F]/40 rounded-3xl blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
               src="/assets/jinx_pyodide_engine.png"
               alt="Pyodide WASM Engine"
-              className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
+              className="relative z-10 w-full h-auto object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)] animate-float-subtle"
               loading="lazy"
             />
             <div className="text-[11px] font-mono text-center text-[#F4A261] mt-2 uppercase tracking-widest font-semibold">
@@ -88,13 +88,13 @@ export function AboutSection() {
         <FadeIn delay={0.3} x={80} y={0} duration={0.9}>
           <div
             onClick={() => sfx.playSuccess()}
-            className="relative group p-3 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
+            className="relative group p-4 sm:p-5 rounded-3xl bg-gradient-to-br from-white/10 via-black/80 to-white/5 border border-white/20 backdrop-blur-2xl shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             <div className="absolute -inset-2 bg-[#00f5a0]/30 rounded-full blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
               src="/assets/jinx_survival_radar.png"
               alt="100% Air-Gapped Sovereign Shield"
-              className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
+              className="relative z-10 w-full h-auto object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)] animate-float-slow"
               loading="lazy"
             />
             <div className="text-[11px] font-mono text-center text-[#00f5a0] mt-2 uppercase tracking-widest font-semibold flex items-center justify-center gap-1">

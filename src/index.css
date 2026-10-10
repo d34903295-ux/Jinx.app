@@ -115,3 +115,49 @@
 .animate-marquee-reverse:hover {
   animation-play-state: paused;
 }
+
+
+/* 3D Floating & Micro-Animations for Sovereign Assets */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-9px) rotate(1.2deg);
+  }
+}
+
+@keyframes float-reverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(9px) rotate(-1.2deg);
+  }
+}
+
+@keyframes float-hero {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1.8deg) scale(1.02);
+  }
+}
+
+.animate-float-hero {
+  animation: float-hero 8s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float 7s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-reverse 8.5s ease-in-out infinite;
+}
+
+.animate-float-subtle {
+  animation: float 6.5s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
