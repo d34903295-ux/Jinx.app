@@ -516,10 +516,10 @@ export function DigitalWaveFieldHero({
                 {/* Radiant Ambient Core Glow */}
                 <div className="absolute -inset-6 rounded-full bg-gradient-to-tr from-[#00f5a0]/30 via-[#7621B0]/30 to-[#BE4C00]/30 blur-3xl opacity-70 group-hover:opacity-100 transition-opacity duration-500 animate-pulse" />
                 <img
-                  src="/assets/hero-visual.png"
+                  src="/assets/jinx_hero_core_3d.png"
                   onError={(e) => {
                     ;(e.currentTarget as HTMLImageElement).src =
-                      '/nodo_hero_core.jpg'
+                      '/assets/jinx_hero_core_3d.png'
                   }}
                   alt="Jinx Sovereign 3D Core & Mobile Assistant"
                   className="relative z-10 w-[240px] sm:w-[320px] md:w-[400px] lg:w-[460px] h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.85)] filter contrast-105 group-hover:scale-105 transition-transform duration-500 rounded-3xl"

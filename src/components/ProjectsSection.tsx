@@ -33,7 +33,7 @@ const SHOWCASES: FeatureShowcase[] = [
     ],
     codePreview:
       '// WebGPU local pipeline\nawait pipeline.generate({\n  prompt: "Synthesize field triage protocol",\n  max_tokens: 512,\n  temperature: 0.2\n});',
-    imageSrc: '/assets/blog-ai-agents.png',
+    imageSrc: '/assets/jinx_hero_core_3d.png',
   },
   {
     number: '02',
@@ -50,7 +50,7 @@ const SHOWCASES: FeatureShowcase[] = [
     ],
     codePreview:
       '// Vector RAG cosine match\nconst results = await vectorStore.query({\n  query: "hypothermia protocol",\n  top_k: 3,\n  threshold: 0.78\n});',
-    imageSrc: '/assets/hero-collage-1.png',
+    imageSrc: '/assets/jinx_vector_rag_3d.png',
   },
   {
     number: '03',
@@ -67,7 +67,7 @@ const SHOWCASES: FeatureShowcase[] = [
     ],
     codePreview:
       '# Pyodide offline execution\nimport math\ndef calc_bearing(lat1, lon1, lat2, lon2):\n    # Trigonometric spherical law\n    return math.degrees(math.atan2(y, x))',
-    imageSrc: '/assets/blog-motion-pro.png',
+    imageSrc: '/assets/jinx_pyodide_engine.png',
   },
   {
     number: '04',
@@ -84,7 +84,7 @@ const SHOWCASES: FeatureShowcase[] = [
     ],
     codePreview:
       '// Emergency triage protocol dispatch\nconst beacon = await emergencyVault.load({\n  scenario: "CIVIL_BLACKOUT_GRID_FAIL",\n  offline_mode: true\n});',
-    imageSrc: '/assets/hero-collage-2.png',
+    imageSrc: '/assets/jinx_survival_radar.png',
   },
 ]
 

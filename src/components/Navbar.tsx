@@ -48,7 +48,7 @@ export function Navbar({ onOpenApp, airGapActive = true, onToggleAirGap }: Navba
         >
           <div className="size-8 sm:size-9 rounded-xl bg-gradient-to-br from-[#00f5a0] to-[#7621B0] p-0.5 shadow-[0_0_15px_rgba(0,245,160,0.3)] group-hover:scale-105 transition-transform">
             <img
-              src="/assets/icon-ai-brain.png"
+              src="/assets/jinx_chip_webgpu.png"
               alt="Jinx Logo"
               className="w-full h-full object-cover rounded-[10px]"
             />

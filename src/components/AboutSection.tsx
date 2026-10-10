@@ -28,7 +28,7 @@ export function AboutSection() {
           >
             <div className="absolute -inset-2 bg-gradient-to-tr from-[#00f5a0]/30 to-[#7621B0]/30 rounded-3xl blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
-              src="/assets/icon-ai-brain.png"
+              src="/assets/jinx_chip_webgpu.png"
               alt="3D Neural Core"
               className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
               loading="lazy"
@@ -50,7 +50,7 @@ export function AboutSection() {
           >
             <div className="absolute -inset-2 bg-[#7621B0]/30 rounded-full blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
-              src="/assets/icon-globe-3d.png"
+              src="/assets/jinx_vector_rag_3d.png"
               alt="3D Vector RAG Globe"
               className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
               loading="lazy"
@@ -71,7 +71,7 @@ export function AboutSection() {
           >
             <div className="absolute -inset-2 bg-gradient-to-tr from-[#BE4C00]/40 to-[#E07A5F]/40 rounded-3xl blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
-              src="/assets/icon-speed-gold.png"
+              src="/assets/jinx_pyodide_engine.png"
               alt="Pyodide WASM Engine"
               className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
               loading="lazy"
@@ -92,7 +92,7 @@ export function AboutSection() {
           >
             <div className="absolute -inset-2 bg-[#00f5a0]/30 rounded-full blur-xl opacity-60 group-hover:opacity-100 transition-opacity" />
             <img
-              src="/assets/icon-shield-gold.png"
+              src="/assets/jinx_survival_radar.png"
               alt="100% Air-Gapped Sovereign Shield"
               className="relative z-10 w-full h-auto object-contain rounded-2xl filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]"
               loading="lazy"
