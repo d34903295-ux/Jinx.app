@@ -46,11 +46,11 @@ export function Navbar({ onOpenApp, airGapActive = true, onToggleAirGap }: Navba
           onClick={() => sfx.playBlip(700)}
           className="flex items-center gap-2.5 sm:gap-3 group cursor-pointer"
         >
-          <div className="size-8 sm:size-9 rounded-xl bg-gradient-to-br from-[#00f5a0] to-[#7621B0] p-0.5 shadow-[0_0_15px_rgba(0,245,160,0.3)] group-hover:scale-105 transition-transform">
+          <div className="size-9 sm:size-10 rounded-xl bg-gradient-to-br from-[#00f5a0]/30 via-[#10141d] to-black border border-white/20 p-1 shadow-[0_0_20px_rgba(0,245,160,0.35)] group-hover:shadow-[0_0_30px_rgba(0,245,160,0.6)] group-hover:scale-105 transition-all duration-300 flex items-center justify-center">
             <img
-              src="/assets/jinx_chip_webgpu.png"
-              alt="Jinx Logo"
-              className="w-full h-full object-cover rounded-[10px]"
+              src="/assets/jinx_brand_logo.png"
+              alt="Jinx Brand Logo"
+              className="w-full h-full object-contain filter drop-shadow-[0_2px_8px_rgba(0,245,160,0.6)] group-hover:rotate-6 transition-transform duration-500"
             />
           </div>
           <div className="flex flex-col">
