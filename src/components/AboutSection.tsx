@@ -147,7 +147,7 @@ export function AboutSection() {
         {/* CTA Button */}
         <FadeIn delay={0.2} y={30} duration={0.8}>
           <ContactButton
-            label="DOWNLOAD APK (327 MB)"
+            label="DOWNLOAD APK (97 MB)"
             href="/Jinx-app.apk"
             download="Jinx-app.apk"
           />

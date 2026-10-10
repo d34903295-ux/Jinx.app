@@ -111,7 +111,7 @@ export function LandingPage({ onOpenApp }: LandingPageProps) {
           <FadeIn delay={0.45} y={20} duration={0.8}>
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-3">
               <ContactButton
-                label="DOWNLOAD APK (327 MB)"
+                label="DOWNLOAD APK (97 MB)"
                 href="/Jinx-app.apk"
                 download="Jinx-app.apk"
                 onClick={() => sfx.playSuccess()}
