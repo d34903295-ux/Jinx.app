@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import { Navbar } from './components/Navbar'
 import { HeroSection } from './components/HeroSection'
 import { InteractiveTerminal } from './components/InteractiveTerminal'
@@ -15,7 +15,7 @@ interface LandingPageProps {
   onOpenApp?: () => void
 }
 
-const SHA256_HASH = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+const SHA256_HASH = '98269de27a5733db1a37393fddad7c38a08cd22baf132f7ea70d5bccb7a3eb00'
 
 export function LandingPage({ onOpenApp }: LandingPageProps) {
   const [airGapActive, setAirGapActive] = useState<boolean>(true)
@@ -83,7 +83,7 @@ export function LandingPage({ onOpenApp }: LandingPageProps) {
           <FadeIn delay={0} y={20} duration={0.8}>
             <div className="inline-flex items-center gap-2 rounded-full border border-[#00f5a0]/40 bg-[#00f5a0]/10 px-4 py-1.5 font-mono text-xs text-[#00f5a0] uppercase tracking-widest shadow-[0_0_20px_rgba(0,245,160,0.2)]">
               <span className="size-2 rounded-full bg-[#00f5a0] animate-pulse" />
-              <span>JINX v1.0 • READY FOR OFFLINE DEPLOYMENT</span>
+              <span>JINX DEFINITIVE • READY FOR OFFLINE DEPLOYMENT</span>
             </div>
           </FadeIn>
 
@@ -111,9 +111,9 @@ export function LandingPage({ onOpenApp }: LandingPageProps) {
           <FadeIn delay={0.45} y={20} duration={0.8}>
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-3">
               <ContactButton
-                label="DOWNLOAD APK (97 MB)"
-                href="/Jinx-app.apk"
-                download="Jinx-app.apk"
+                label="DOWNLOAD JINX DEFINITIVE (139 MB)"
+                href="/JINX DEFINITIVE.apk"
+                download="JINX DEFINITIVE.apk"
                 onClick={() => sfx.playSuccess()}
               />
 
@@ -180,7 +180,7 @@ export function LandingPage({ onOpenApp }: LandingPageProps) {
 
           {/* Telemetry Footer Info */}
           <div className="w-full pt-10 mt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-[#D7E2EA]/40 font-mono gap-4">
-            <span>PACKAGE: JINX-APP.APK • ARM64-V8A WEBGPU</span>
+            <span>PACKAGE: JINX DEFINITIVE.APK • ARM64-V8A WEBGPU</span>
             <span>OFFGRID SOVEREIGN EDITION • 2026</span>
             <span>SHA-256 VERIFIED • 0 BYTES CLOUD TELEMETRY</span>
           </div>

@@ -7,13 +7,18 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/JINX-DEFINITIVE.apk",
+      "destination": "https://github.com/d34903295-ux/Jinx.app/releases/download/v1.0.0/JINX-DEFINITIVE.apk",
+      "permanent": false
+    },
+    {
       "source": "/Jinx-app.apk",
-      "destination": "https://github.com/d34903295-ux/Jinx.app/releases/download/v1.0.0/Jinx-app.apk",
+      "destination": "https://github.com/d34903295-ux/Jinx.app/releases/download/v1.0.0/JINX-DEFINITIVE.apk",
       "permanent": false
     },
     {
       "source": "/Jinx.apk",
-      "destination": "https://github.com/d34903295-ux/Jinx.app/releases/download/v1.0.0/Jinx-app.apk",
+      "destination": "https://github.com/d34903295-ux/Jinx.app/releases/download/v1.0.0/JINX-DEFINITIVE.apk",
       "permanent": false
     }
   ],
@@ -33,7 +38,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"Jinx-app.apk\""
+          "value": "attachment; filename=\"JINX DEFINITIVE.apk\""
         }
       ]
     },

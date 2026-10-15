@@ -639,9 +639,9 @@ export function DigitalWaveFieldHero({
             Explore Architecture
           </a>
           <ContactButton
-            label="DOWNLOAD JINX (97 MB)"
-            href="/Jinx-app.apk"
-            download="Jinx-app.apk"
+            label="DOWNLOAD JINX DEFINITIVE (139 MB)"
+            href="/JINX DEFINITIVE.apk"
+            download="JINX DEFINITIVE.apk"
           />
         </FadeIn>
       </div>

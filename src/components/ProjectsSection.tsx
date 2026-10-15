@@ -1,4 +1,4 @@
-﻿import { useRef } from 'react'
+import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { FadeIn } from './FadeIn'
 import { LiveProjectButton } from './LiveProjectButton'
@@ -153,8 +153,8 @@ function ShowcaseCard({ showcase, index, totalCards }: ShowcaseCardProps) {
           <div className="flex items-center gap-3">
             <LiveProjectButton
               label="GET APK"
-              href="/Jinx-app.apk"
-              download="Jinx-app.apk"
+              href="/JINX DEFINITIVE.apk"
+              download="JINX DEFINITIVE.apk"
               onClick={() => sfx.playSuccess()}
               className="text-xs sm:text-sm py-2.5 px-6 font-mono"
             />

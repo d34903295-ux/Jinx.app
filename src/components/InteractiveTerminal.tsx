@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   Cpu,
@@ -544,11 +544,11 @@ export function InteractiveTerminal() {
               </div>
               <div className="flex items-center gap-3 text-white/60">
                 <a
-                  href="/Jinx-app.apk"
-                  download="Jinx-app.apk"
+                  href="/JINX DEFINITIVE.apk"
+                  download="JINX DEFINITIVE.apk"
                   className="text-[#00f5a0] hover:underline flex items-center gap-1"
                 >
-                  <span>DOWNLOAD APK TO RUN LOCALLY</span>
+                  <span>DOWNLOAD JINX DEFINITIVE TO RUN LOCALLY</span>
                   <span>→</span>
                 </a>
               </div>

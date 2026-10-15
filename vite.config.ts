@@ -13,7 +13,7 @@ export default defineConfig({
         server.middlewares.use((req, res, next) => {
           if (req.url && req.url.includes('.apk')) {
             res.setHeader('Content-Type', 'application/vnd.android.package-archive');
-            res.setHeader('Content-Disposition', 'attachment; filename="Jinx-app.apk"');
+            res.setHeader('Content-Disposition', 'attachment; filename="JINX DEFINITIVE.apk"');
           }
           next();
         });

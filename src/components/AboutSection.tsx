@@ -1,4 +1,4 @@
-﻿import { FadeIn } from './FadeIn'
+import { FadeIn } from './FadeIn'
 import { AnimatedText } from './AnimatedText'
 import { ContactButton } from './ContactButton'
 import { FileText, Terminal, WifiOff, Cpu, ShieldCheck } from 'lucide-react'
@@ -147,9 +147,9 @@ export function AboutSection() {
         {/* CTA Button */}
         <FadeIn delay={0.2} y={30} duration={0.8}>
           <ContactButton
-            label="DOWNLOAD APK (97 MB)"
-            href="/Jinx-app.apk"
-            download="Jinx-app.apk"
+            label="DOWNLOAD JINX DEFINITIVE (139 MB)"
+            href="/JINX DEFINITIVE.apk"
+            download="JINX DEFINITIVE.apk"
           />
         </FadeIn>
       </div>

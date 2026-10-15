@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { WifiOff, Wifi, Volume2, VolumeX, ShieldCheck, Download, Sparkles, Terminal } from 'lucide-react'
 import { sfx } from '../lib/sound'
 import { FadeIn } from './FadeIn'
@@ -146,8 +146,8 @@ export function Navbar({ onOpenApp, airGapActive = true, onToggleAirGap }: Navba
 
           {/* Download APK Pill CTA */}
           <a
-            href="/Jinx-app.apk"
-            download="Jinx-app.apk"
+            href="/JINX DEFINITIVE.apk"
+            download="JINX DEFINITIVE.apk"
             onClick={() => sfx.playSuccess()}
             className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full border border-[#00f5a0]/50 bg-gradient-to-r from-[#00f5a0]/20 to-[#7621B0]/20 text-xs text-[#00f5a0] font-mono tracking-wider font-semibold hover:bg-[#00f5a0]/30 transition-all shadow-[0_0_20px_rgba(0,245,160,0.25)] hover:scale-105 active:scale-95 cursor-pointer"
           >
